@@ -3,11 +3,8 @@ import type { Config } from "tailwindcss"
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -19,15 +16,15 @@ const config = {
     },
     extend: {
       colors: {
-        sidebarBackgroundColor:"#4d44b5",
-        darkModeBackgroundColor:"#272738",
-        lightModeBackgroundColor:"#ffffff",
-        darkModeWholeBodyBackgroundColor:"#202020",
-        lightModeWholeBodyBackgroundColor:"#e6ebee",
-        darkModeTitleTextColor:"#ffffff",
-        lightModeTitleTextColor:"#303972",
-        darkModeTextColor:"#a4a5ad",
-        lightModeTextColor:"#a9a2b6",
+        sidebarBackgroundColor: "#4d44b5",
+        darkModeBackgroundColor: "#272738",
+        lightModeBackgroundColor: "#ffffff",
+        darkModeWholeBodyBackgroundColor: "#202020",
+        lightModeWholeBodyBackgroundColor: "#e6ebee",
+        darkModeTitleTextColor: "#ffffff",
+        lightModeTitleTextColor: "#303972",
+        darkModeTextColor: "#a4a5ad",
+        lightModeTextColor: "#a9a2b6",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -84,6 +81,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
 export default config
