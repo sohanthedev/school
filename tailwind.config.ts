@@ -16,6 +16,9 @@ const config = {
     },
     extend: {
       colors: {
+        boderColor:"#383535",
+        buttonBgFrom:"#723d8a",
+        buttonBgTo:"#574ee3",
         sidebarBackgroundColor: "#4d44b5",
         darkModeBackgroundColor: "#272738",
         lightModeBackgroundColor: "#ffffff",
