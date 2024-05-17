@@ -7,7 +7,6 @@ import { DataTableDemo } from "@/components/Table/table";
 const students = () => {
     return (
         <DefaultLayout>
-            
             <DataTableDemo></DataTableDemo>
         </DefaultLayout>
     );

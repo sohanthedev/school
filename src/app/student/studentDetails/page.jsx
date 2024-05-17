@@ -1,5 +1,6 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
-import StudentsDetail from "../../components/studentsDetail/StudentsDetail";
+import StudentsDetail from "@/components/studentsDetail/StudentsDetail";
+
 const page = () => {
     return (
         <DefaultLayout>
